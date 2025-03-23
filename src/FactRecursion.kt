@@ -16,6 +16,6 @@ fun main()
     println("Enter the value")
     val num= readln().toLongOrNull()?:0
     val res=factoraisl(num)
-
-    println("${res}")
+//printing values here
+    println("$res")
 }
